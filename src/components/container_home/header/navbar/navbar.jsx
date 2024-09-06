@@ -1,15 +1,16 @@
 import React from "react";
 import './navbar.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div className="navbar_card">
                 <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Skills </a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Get in Touch</a></li>
-                </ul>
+                    <li><Link to='/'>About Me</Link></li>
+                    <li><Link to='/skills'>Skills</Link></li>
+                    <li><Link to='/projects'>Projects</Link></li>
+                    <li><Link to='/'>Get in Touch</Link></li>
+             </ul>
         </div>
     );
 }

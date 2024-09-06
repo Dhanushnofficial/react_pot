@@ -10,16 +10,9 @@ export default function Container_home(){
      
     return(
         <div className="home_card">
-            {/* <About_section/>
-            <Project_section/>
-            <Skills /> */}
+           
             <BrowserRouter>
-             <ul>
-               <li><Link to='/'>About Me</Link></li>
-                 <li><Link to='/skills'>Skills</Link></li>
-                 <li><Link to='/projects'>Projects</Link></li>
-                
-             </ul>
+             
              <Routes>
                  <Route path='/' element={<About_section />} />
                  <Route path='/skills' element={<Skills />} />
