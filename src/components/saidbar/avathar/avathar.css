@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.avathar_img{
+    height: 200px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.297);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avathar_img img{
+    height: 190px;
+    width: 170px;
+    border-radius: 6px;
+}

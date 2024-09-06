@@ -1,0 +1,24 @@
+.navbar_card ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(91, 91, 91);
+    padding: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 20px;
+}
+.navbar_card li{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+    
+}
+.navbar_card li a{
+    text-decoration: none;
+    color: white;
+       
+}
+.navbar_card li a:hover{
+    color: var(--maincolor);
+    transition: ease-in;
+}

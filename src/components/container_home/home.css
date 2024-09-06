@@ -1,0 +1,11 @@
+.home_card{
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    margin-left: 350px;
+    /*  */
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

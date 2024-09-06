@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home_container {
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home_container h1{
+    margin: 40px 0px 30px 50px;
+    font-size: 40px;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    color: white;
+    padding: 2px;
+}
