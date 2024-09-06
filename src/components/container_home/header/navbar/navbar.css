@@ -1,8 +1,7 @@
 .navbar_card ul{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(91, 91, 91, 0.37);
-    backdrop-filter: blur(20px);
+    background-color: rgb(91, 91, 91);
     padding: 15px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 20px;
