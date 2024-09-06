@@ -5,16 +5,20 @@
 .main_head{
     font-size: 20px;
     font-weight: 300;
-    
+    animation: slideInRight; 
+    animation-duration: 2s;
 }
 .main_head samp{
     color: var(--maincolor);
     font-size: 32px;
     font-weight: bold;
+    
 }
 .main_para{
     font-size: 18px;
     margin-top: 10px;
+    animation: slideInRight; 
+    animation-duration: 2s;
 }
 
 .about_card{
@@ -31,15 +35,20 @@
     border-radius: 5px;
     margin: 20px;
     box-shadow: rgba(255, 178, 34, 0.19) 5px 10px 20px, rgba(127, 104, 61, 0.527) 15px 16px 6px;
+    animation: flip; 
+    animation-duration: 5s;
 }
 .about_card_h1{
     font-size: 25px;
     font-weight: 800;
     margin-top: 10px;
+    animation: slideInRight; 
+    animation-duration: 2s;
 }
 .about_card_p1{
     font-size: 18px;
     margin-top: 20px;
+    
 }
 .about_card_p2{
     font-size: 16px;
@@ -50,9 +59,13 @@
     margin-top: 5px;
     font-weight: 700;
     color: var(--maincolor);
+    animation: backInUp; 
+    animation-duration: 3s; 
 }
 
 .about_para_1{
     margin: 20px 0 20px 0;
     line-height: 30px;
+    animation: bouncebounceIn; 
+    animation-duration: 2s;
 }

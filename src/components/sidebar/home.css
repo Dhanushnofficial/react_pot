@@ -24,6 +24,8 @@
     margin-top: 10px;
     font-size: 35px;
     font-weight: 300;
+    /* animation: lightSpeedInLeft; 
+    animation-duration: 5s;  */
 }
 .sidebar_container p{
     color:  rgb(255, 255, 255);
@@ -31,4 +33,5 @@
     margin-top: 8px;
     font-size: 15px;
     font-weight: 600;
+    
 }

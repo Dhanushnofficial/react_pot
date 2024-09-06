@@ -11,6 +11,8 @@
     align-items: center;
     box-shadow:  rgba(255, 255, 255, 0.527) 0px 30px 60px -30px;
     gap: 5px;
+    animation: flipInX; 
+    animation-duration: 2s; 
 }
 
     
