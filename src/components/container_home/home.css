@@ -9,3 +9,15 @@
     margin-bottom: 20px;
 }
 
+@media (min-width: 568px) and (max-width: 1000px){
+    .home_card{
+        margin-left: 300px;
+        border: none;
+    }
+}
+@media (max-width: 567px) {
+    .home_card{
+        margin-left: 0px;
+        border: none;
+    }
+}

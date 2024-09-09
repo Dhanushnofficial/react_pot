@@ -23,3 +23,15 @@
     color: white;
     padding: 2px;
 }
+
+
+@media (min-width: 568px) and (max-width: 1000px){
+    .home_container h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1000px) {
+    .home_container h1{
+        font-size: 25px;
+    }
+}

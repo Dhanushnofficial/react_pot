@@ -35,3 +35,26 @@
     font-weight: 600;
     
 }
+
+
+
+
+@media (min-width: 568px) and (max-width: 1000px) {
+    .sidebar_container h1{
+        font-size: 20px;
+    }
+    .sidebar_container{
+        width: 25%;
+    }
+} 
+@media (max-width: 567px) {
+    .sidebar_container{
+        position:sticky;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+} 

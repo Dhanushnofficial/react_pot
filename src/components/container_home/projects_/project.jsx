@@ -15,7 +15,7 @@ const Project = () =>{
             id:2,
             name:"Todo-List",
             src:"images/project_2.png",
-            demo:"https://dhanushtitan.github.io/Beauty-of-Travel/",
+            demo:"https://dhanushtitan.github.io/Todo-List/",
             github:"https://github.com/DhanushTitan/Todo-List.git"
         },
         {
@@ -29,8 +29,8 @@ const Project = () =>{
             id:4,
             name:"Todo-List",
             src:"images/project_4.png",
-            demo:"https://github.com/DhanushTitan/Todo-List.git",
-            github:"https://dhanushtitan.github.io/Beauty-of-Travel/"
+            demo:"https://dhanushtitan.github.io/Beauty-of-Travel/",
+            github:"https://github.com/DhanushTitan/Todo-List.git"
         },
        
     ]

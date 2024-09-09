@@ -13,7 +13,7 @@ const About = () =>{
             </p>
             <div className="about_card">
                 <img src="images/IMG_0570 2.JPG" className="about_img" alt="image not found"/>
-                <div>
+                <div className="about_card_alignment">
                     <h1 className="about_card_h1">Qualification :-</h1>
                     <p className="about_card_p1">St. Joseph's College in Tiruchirappalli</p>
                     <p className="about_card_p2">Bsc Computer Scienec </p>
